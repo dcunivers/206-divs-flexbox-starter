@@ -97,7 +97,7 @@ textarea {
 
 
 html {
-  background-color: #fff;
+  background-image: url("file:///Users/dana/Documents/coding-skillcrush/206-divs-flexbox-starter/img/bkgd.jpg") cover repeat #fff;
   height: 100%;
 }
 
@@ -117,15 +117,22 @@ body {
 
 .div-1, .div-2, .div-3 {
   /*give the divs a width of 30%, add display:flex, set justify-content and align-items to center*/
-  color: #fff;
   line-height: 1.5em;
-  font-size: 1.6em;
-  background-color: #f16059;
+  font-size: 1.1em;
+  background-color: lightgrey;
   height: 300px;
-  width: 30%;
+  width: 20%;
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 0 40px;
+  border: solid black 6px;
+  text-align: center;
+  opacity: .3;
+}
+
+.div-1, .div-2, .div-3 p {
+   color: black;
 }
 
 
